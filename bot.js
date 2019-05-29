@@ -8,13 +8,13 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`~ Raider 🖤`,"http://twitch.tv/Death Shop")
+client.user.setGame(`~ `,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
 
 const developers = ["528667427257450507"]
-const adminprefix = "D";
+const adminprefix = "-";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
