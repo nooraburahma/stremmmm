@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "D";
+var prefix = "-";
 client.on('ready', () => {
    console.log(`----------------`);
       console.log(`Desert Bot- Script By : EX Clan`);
@@ -13,7 +13,7 @@ client.user.setStatus("dnd")
 });
 
 
-const developers = ["562313255322779657"]
+const developers = ["528667427257450507"]
 const adminprefix = "D";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
